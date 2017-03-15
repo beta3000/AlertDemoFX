@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ciro.app.controller.MainController">
+   <children>
+      <Button layoutX="68.0" layoutY="82.0" mnemonicParsing="false" onAction="#showAlert1" text="Alert 1" />
+      <Button layoutX="213.0" layoutY="82.0" mnemonicParsing="false" onAction="#showAlert2" text="Alert 2" />
+      <Button layoutX="381.0" layoutY="82.0" mnemonicParsing="false" onAction="#showAlert3" text="Alert 3" />
+      <Button layoutX="68.0" layoutY="175.0" mnemonicParsing="false" onAction="#showAlert4" text="Alert 4" />
+      <Button layoutX="213.0" layoutY="175.0" mnemonicParsing="false" onAction="#showAlert5" text="Alert 5" />
+   </children>
+</AnchorPane>
